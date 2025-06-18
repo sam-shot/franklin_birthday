@@ -1,6 +1,6 @@
 import { motion, PanInfo, useMotionValue, useTransform } from "framer-motion";
 import { useState } from "react";
-import { CardData } from "@/lib/card-data";
+import { allPhotos, CardData } from "@/lib/card-data";
 
 interface BirthdayCardProps {
   card: CardData;
@@ -143,7 +143,7 @@ export function BirthdayCard({
         {/* Photo Section */}
         <div className="relative w-full h-1/2 overflow-hidden">
           <motion.img 
-            src={card.photos[currentPhotoIndex]} 
+            src={allPhotos[currentPhotoIndex]} 
             alt="Birthday celebration photo" 
             className="w-full h-full object-cover photo-transition"
             initial={{ scale: 1.1 }}
@@ -154,7 +154,7 @@ export function BirthdayCard({
           
           {/* Photo Navigation Dots */}
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-            {card.photos.map((_, photoIndex) => (
+            {allPhotos.map((_, photoIndex) => (
               <button
                 key={photoIndex}
                 className={`w-2 h-2 rounded-full transition-all duration-200 ${
