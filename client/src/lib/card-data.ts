@@ -7,9 +7,9 @@ export interface CardData {
 }
 
 export const allPhotos = [
-  "https://github-production-user-asset-6210df.s3.amazonaws.com/75101172/456727675-28d29a29-634d-4998-9e90-eeb84c8037cb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250618%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250618T220902Z&X-Amz-Expires=300&X-Amz-Signature=16011ae2db983cbaac8b7bb7cafeaecb2f7a3a6c40c156aa83439c3d042b415b&X-Amz-SignedHeaders=host",
-  "https://github-production-user-asset-6210df.s3.amazonaws.com/75101172/456727674-4c8c1d1c-728a-44df-b3f6-8e96cc4e0363.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250618%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250618T220959Z&X-Amz-Expires=300&X-Amz-Signature=eb0de31c8271a81463434e27b67a5a00215b988bb11effc84d605df8678d04bf&X-Amz-SignedHeaders=host",
-  "https://github-production-user-asset-6210df.s3.amazonaws.com/75101172/456729711-68ce4de6-9eff-466f-9302-4de232f7de12.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250618%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250618T221017Z&X-Amz-Expires=300&X-Amz-Signature=16c45486fbbe020fb3785a3ab497e1b2af39b8ae6a1e90508d9b24143cfa1795&X-Amz-SignedHeaders=host",
+  "https://i.postimg.cc/m2FByVLb/a.jpg",
+  "https://i.postimg.cc/qvV0bnq2/b.jpg",
+  "https://i.postimg.cc/9MMjRYgH/c.jpg",
 ];
 
 export const cardData: CardData[] = [
